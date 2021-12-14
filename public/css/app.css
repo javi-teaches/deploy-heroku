@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: repeating-linear-gradient(-45deg, #353636, #353636 20px, #868686 20px, #868686 40px);
+}
+
+img {
+	max-width: 80%;
+	border-radius: 10px;
+}
+
+h2 {
+	margin: 0 0 20px;
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 
+		0 0 1px #222,
+		0 0 7px #fff,
+	 	0 0 7px #fff,
+	 	0 0 10px #fff,
+	 	0 0 21px #fff,
+	 	0 0 42px #eecd15,
+	 	0 0 82px #eecd15,
+	 	0 0 92px #eecd15,
+	 	0 0 102px #eecd15;
+}
